@@ -84,7 +84,7 @@ li::before {
   padding: 2px;
   content: "\2713";
   /* content: "\2613"; */
-  margin-left: 2em;
+
   color: #64c0a9;
 }
 #section-2 li:last-child .sign {
