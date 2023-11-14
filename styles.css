@@ -16,12 +16,13 @@ main {
 header {
   margin-bottom: 30px;
   padding: 10px;
-  display: flex;
 }
 
-/* h1 {
+h1,
+figure {
+  vertical-align: middle;
   display: inline-block;
-} */
+}
 h1 {
   font-size: 50px;
 }
@@ -74,6 +75,7 @@ ul {
 
 li {
   margin: 10px 0;
+  font-size: 14px;
 }
 
 li::before {
@@ -84,4 +86,34 @@ li::before {
   /* content: "\2613"; */
   margin-left: 2em;
   color: #64c0a9;
+}
+#section-2 li:last-child .sign {
+  background-color: orangered;
+}
+#section-2 li:nth-child(2) .sign {
+  background-color: rgb(242, 116, 247);
+}
+
+#section-2 li:nth-child(3) .sign {
+  background-color: lightcoral;
+}
+
+#section-2 li:nth-child(3)::before,
+#section-3 li:first-child:before {
+  border-color: red;
+  color: red;
+  content: "\2613";
+}
+
+#section-3 li:nth-child(2) .sign {
+  background-color: pink;
+  content: "Website";
+}
+
+#section-3 li:nth-child(3) .sign {
+  background-color: chartreuse;
+}
+
+#section-3 li:first-child .sign {
+  display: none;
 }
