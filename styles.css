@@ -15,9 +15,43 @@ main {
 }
 header {
   margin-bottom: 30px;
+  padding: 10px;
+  display: flex;
 }
+
+/* h1 {
+  display: inline-block;
+} */
+h1 {
+  font-size: 50px;
+}
+
 main {
   margin: 0 auto;
-
   width: 80%;
+  padding: 30px 50px;
+  color: darkgray;
+}
+
+button {
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #47adf1;
+  color: white;
+  border: 0;
+}
+
+.secondary {
+  color: lightgray;
+  background-color: white;
+  border: 0.5px solid lightgray;
+}
+
+hr {
+  margin-top: 20px;
 }
