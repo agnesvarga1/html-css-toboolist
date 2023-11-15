@@ -30,8 +30,12 @@ h1 {
 main {
   margin: 0 auto;
   width: 80%;
-  padding: 30px 50px;
   color: #2c2929;
+}
+
+.main-top,
+.main-bottom {
+  padding: 20px 50px;
 }
 
 button {
@@ -53,8 +57,8 @@ button {
   border: 0.5px solid lightgray;
 }
 
-hr {
-  margin: 20px 0;
+section {
+  margin-top: 20px;
 }
 
 h4 {
@@ -83,8 +87,6 @@ li::before {
   border-radius: 100%;
   padding: 2px;
   content: "\2713";
-  /* content: "\2613"; */
-
   color: #64c0a9;
 }
 #section-2 li:last-child .sign {
@@ -107,7 +109,6 @@ li::before {
 
 #section-3 li:nth-child(2) .sign {
   background-color: pink;
-  content: "Website";
 }
 
 #section-3 li:nth-child(3) .sign {
